@@ -4,20 +4,20 @@ const vehicles=[
 {code:"3615166",brand:"Volkswagen",model:"Polo",version:"HIGHLINE AUT",price:105000,year:2023,km:20800,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:true,body:"Hatchback",img:"https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80"},
 {code:"8513194",brand:"Volkswagen",model:"Nivus",version:"HIGHLINE AUT",price:109900,year:2021,km:73340,fuel:"Flex",gear:"Automático",state:"Usado",tag:"",super:true,body:"SUV",img:"https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"},
 {code:"2566141",brand:"Volkswagen",model:"T-Cross",version:"SENSE AUT",price:95000,year:2021,km:60300,fuel:"Flex",gear:"Automático",state:"Usado",tag:"",super:true,body:"SUV",img:"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"},
-{code:"T01",brand:"Volkswagen",model:"Golf",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Hatchback",img:"https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"},
-{code:"T02",brand:"Volkswagen",model:"Jetta",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Sedan",img:"https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"},
-{code:"T03",brand:"Volkswagen",model:"Virtus",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Sedan",img:"https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80"},
-{code:"T04",brand:"Volkswagen",model:"Saveiro",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Manual",state:"Semi-novo",tag:"",super:false,body:"Pickup",img:"https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80"},
-{code:"T05",brand:"Volkswagen",model:"Amarok",version:"CONSULTE DISPONIBILIDADE",price:0,year:2020,km:90000,fuel:"Diesel",gear:"Automático",state:"Usado",tag:"",super:false,body:"Pickup",img:"https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80"},
-{code:"T06",brand:"Volkswagen",model:"Tiguan",version:"CONSULTE DISPONIBILIDADE",price:0,year:2020,km:90000,fuel:"Flex",gear:"Automático",state:"Usado",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"},
-{code:"T07",brand:"Volkswagen",model:"Taos",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"},
-{code:"T08",brand:"Jeep",model:"Compass",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"},
-{code:"T09",brand:"Jeep",model:"Renegade",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"}
+{code:"TD01",brand:"Volkswagen",model:"Golf",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Hatchback",img:"https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80"},
+{code:"TD02",brand:"Volkswagen",model:"Jetta",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Sedan",img:"https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"},
+{code:"TD03",brand:"Volkswagen",model:"Virtus",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"Sedan",img:"https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80"},
+{code:"TD04",brand:"Volkswagen",model:"Saveiro",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Manual",state:"Semi-novo",tag:"",super:false,body:"Pickup",img:"https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80"},
+{code:"TD05",brand:"Volkswagen",model:"Amarok",version:"CONSULTE DISPONIBILIDADE",price:0,year:2020,km:90000,fuel:"Diesel",gear:"Automático",state:"Usado",tag:"",super:false,body:"Pickup",img:"https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80"},
+{code:"TD06",brand:"Volkswagen",model:"Tiguan",version:"CONSULTE DISPONIBILIDADE",price:0,year:2020,km:90000,fuel:"Flex",gear:"Automático",state:"Usado",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"},
+{code:"TD07",brand:"Volkswagen",model:"Taos",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Automático",state:"Semi-novo",tag:"",super:false,body:"SUV",img:"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"},
+{code:"TD08",brand:"Volkswagen",model:"Voyage",version:"CONSULTE DISPONIBILIDADE",price:0,year:2022,km:60000,fuel:"Flex",gear:"Manual",state:"Semi-novo",tag:"",super:false,body:"Sedan",img:"https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80"},
+{code:"TD09",brand:"Volkswagen",model:"Fox",version:"CONSULTE DISPONIBILIDADE",price:0,year:2020,km:90000,fuel:"Flex",gear:"Manual",state:"Usado",tag:"",super:false,body:"Hatchback",img:"https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80"}
 ];
 const brands=["Fiat","Hyundai","Nissan","Peugeot","Honda","Citroen","Renault","Volkswagen","Ford","Chevrolet","Jeep","Toyota","Mitsubishi","BMW","Kia","Mercedes-Benz","BYD","Chrysler"];
 const brandDomains={Fiat:"fiat.com",Hyundai:"hyundai.com",Nissan:"nissan-global.com",Peugeot:"peugeot.com",Honda:"honda.com",Citroen:"citroen.com",Renault:"renault.com",Volkswagen:"vw.com",Ford:"ford.com",Chevrolet:"chevrolet.com",Jeep:"jeep.com",Toyota:"toyota.com",Ssangyong:"ssangyong.com",Audi:"audi.com",Kawasaki:"kawasaki.com",Ducati:"ducati.com",Jaecoo:"jaecoo.com",Omoda:"omoda.com",Chery:"chery.com",Land Rover:"landrover.com",Troller:"troller.com.br",Suzuki:"suzuki.com",Dodge:"dodge.com",Kia:"kia.com",Mercedes:"mercedes-benz.com",BYD:"byd.com",Chrysler:"chrysler.com",Harley:"harley-davidson.com",Mitsubishi:"mitsubishi-motors.com",BMW:"bmw.com",Kia:"kia.com",Mercedes:"mercedes-benz.com",BYD:"byd.com",Chrysler:"chrysler.com",Yamaha:"yamaha.com",Harley:"harley-davidson.com"};
-const logoURL=b=>`https://logo.clearbit.com/${brandDomains[b]}?size=128`;
-let favs=new Set(JSON.parse(localStorage.getItem("tradicao_favs")||"[]"));
+function slugOf(b){var m={"Mercedes-Benz":"mercedes","Land Rover":"landrover","Harley-Davidson":"harleydavidson"};return m[b]||b.toLowerCase().replace(/[^a-z0-9]/g,"")}const logoURL=b=>`https://logo.clearbit.com/${brandDomains[b]}?size=128`;
+let favs=new Set();try{favs=new Set(JSON.parse(localStorage.getItem("tradicao_favs")||"[]"))}catch(e){favs=new Set()}
 let estadoFiltro="todos";
 
 const $=id=>document.getElementById(id);
@@ -26,7 +26,7 @@ const fmt=v=>v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFr
 function toast(m){const t=$("toast");t.textContent=m;t.style.display="block";clearTimeout(t._x);t._x=setTimeout(()=>t.style.display="none",2600)}
 
 function renderBrands(){
-  $("brandsRow").innerHTML=brands.map(b=>`<div class="brand-chip" data-b="${b}" role="button" tabindex="0" title="Filtrar ${b}"><img loading="lazy" src="${logoURL(b)}" alt="Logo ${b}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="fallback">${b[0]}</span>${b}</div>`).join("");
+  $("brandsRow").innerHTML=brands.map(b=>`<div class="brand-chip" data-b="${b}" role="button" tabindex="0" title="Filtrar ${b}"><img loading="lazy" src="${logoURL(b)}" data-slug="${slugOf(b)}" alt="Logo ${b}" onerror="if(!this.dataset.f1){this.dataset.f1=1;this.src='https://cdn.simpleicons.org/'+this.dataset.slug}else{this.style.display='none';this.nextElementSibling.style.display='flex'}"><span class="fallback">${b[0]}</span>${b}</div>`).join("");
   const filterBy=b=>{$("fMarca").value=b;document.querySelectorAll(".brand-chip").forEach(x=>x.classList.toggle("on",x.dataset.b===b));applyFilters();document.getElementById("estoque").scrollIntoView({behavior:"smooth"});toast("Filtrando: "+b)};
   document.querySelectorAll(".brand-chip").forEach(c=>{c.onclick=()=>filterBy(c.dataset.b);c.onkeydown=e=>{if(e.key==="Enter")filterBy(c.dataset.b)}});
   $("dropMarcas").innerHTML=brands.map(b=>`<a href="#estoque" data-b="${b}">${b}</a>`).join("");
@@ -105,7 +105,7 @@ function applyFilters(){
 }
 function bindCards(){
   document.querySelectorAll("[data-fav]").forEach(b=>b.onclick=e=>{e.stopPropagation();const c=b.dataset.fav;
-    favs.has(c)?favs.delete(c):favs.add(c);localStorage.setItem("tradicao_favs",JSON.stringify([...favs]));applyFilters();toast(favs.has(c)?"Adicionado aos favoritos ❤":"Removido dos favoritos")});
+    favs.has(c)?favs.delete(c):favs.add(c);try{localStorage.setItem("tradicao_favs",JSON.stringify([...favs]))}catch(e){};applyFilters();toast(favs.has(c)?"Adicionado aos favoritos ❤":"Removido dos favoritos")});
   document.querySelectorAll("[data-det]").forEach(b=>b.onclick=()=>openDet(b.dataset.det));
   document.querySelectorAll("[data-det-img]").forEach(d=>d.onclick=e=>{if(e.target.closest("[data-fav]"))return;openDet(d.dataset.detImg)});
 }
@@ -114,7 +114,7 @@ function openDet(code){
   $("detBody").innerHTML=`<div class="det-grid"><div><img src="${v.img}"><div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap"><span class="badge" style="position:static">${v.state}</span>${v.tag?`<span class="badge oferta" style="position:static">${v.tag}</span>`:""}</div></div>
   <div><span class="code">Código ${v.code}</span><h2>${v.brand} ${v.model}</h2><p>${v.version}</p>
   <div class="price" style="font-size:28px;margin:8px 0">${fmt(v.price)}</div>
-  <p>📅 ${v.year} • 🛣️ ${v.km.toLocaleString("pt-BR")} km<br>⛽ ${v.fuel} • ⚙️ ${v.gear}<br>📍 Auto Tradição – Francisco Luis Bertolini, 121, 13205, Bento Gonçalves</p>
+  <p>📅 ${v.year} • 🛣️ ${v.km.toLocaleString("pt-BR")} km<br>⛽ ${v.fuel} • ⚙️ ${v.gear}<br>📍 Auto Tradição – Francisco Luis Bertolini, 121, Bento Gonçalves</p>
   <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap"><a class="btn-red" target="_blank" href="https://wa.me/${WA}?text=${encodeURIComponent("Olá! Tenho interesse no "+v.brand+" "+v.model+" "+v.version+" código "+v.code+". Ainda está disponível?")}">Tenho interesse</a>
   <button class="btn-outline" onclick="document.getElementById('ovDet').classList.remove('open')">Fechar</button></div></div></div>`;
   $("ovDet").classList.add("open");document.body.style.overflow="hidden";
@@ -130,7 +130,7 @@ document.querySelectorAll(".fEst,.fEtiq").forEach(x=>x.addEventListener("change"
 const fTop=$("fBuscaTop");if(fTop){fTop.addEventListener("input",()=>{$("fBusca").value=fTop.value;applyFilters()});fTop.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();applyFilters()}})}
 const btnTop=$("btnBuscarTop");if(btnTop)btnTop.onclick=()=>{$("fBusca").value=fTop.value;applyFilters();document.getElementById("vehicleGrid").scrollIntoView({behavior:"smooth"})};
 const btnCod=$("btnCod");if(btnCod)btnCod.onclick=()=>{applyFilters();toast("Buscando código "+$("fCodigo").value)};
-const clearAll=()=>{$("fCodigo").value="";if(fTop)fTop.value="";$("fBusca").value="";$("fMarca").value="todas";syncModeloOptions();$("fModelo").value="todos";$("fVersao").value="todas";$("fValor").value=129000;$("fKm").value=189000;$("fCambio").value="todos";$("fComb").value="todos";$("fCarro").value="todas";$("fFav").checked=false;$("fSuper").checked=false;document.querySelectorAll(".fEst").forEach(x=>x.checked=(x.value!=="Zero Km"));document.querySelectorAll(".fEtiq").forEach(x=>x.checked=false);document.querySelectorAll(".brand-chip").forEach(x=>x.classList.remove("on"));applyFilters();toast("Filtros limpos")};
+const clearAll=()=>{$("fCodigo").value="";if(fTop)fTop.value="";$("fBusca").value="";$("fMarca").value="todas";syncModeloOptions();$("fModelo").value="todos";$("fVersao").value="todas";$("fValor").value=$("fValor").max;$("fKm").value=$("fKm").max;$("fCambio").value="todos";$("fComb").value="todos";$("fCarro").value="todas";$("fFav").checked=false;$("fSuper").checked=false;document.querySelectorAll(".fEst").forEach(x=>x.checked=(x.value!=="Zero Km"));document.querySelectorAll(".fEtiq").forEach(x=>x.checked=false);document.querySelectorAll(".brand-chip").forEach(x=>x.classList.remove("on"));applyFilters();toast("Filtros limpos")};
 $("clearFilters").onclick=clearAll;
 const btnTopo=$("btnLimparTopo");if(btnTopo)btnTopo.onclick=clearAll;
 const btnBuscar=$("btnBuscar");if(btnBuscar)btnBuscar.onclick=()=>{applyFilters();document.getElementById("vehicleGrid").scrollIntoView({behavior:"smooth",block:"start"});toast("Busca aplicada")};
@@ -177,4 +177,4 @@ $("sCalc").onclick=()=>{
 // reveal
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("vis")}),{threshold:.12});
 document.querySelectorAll(".reveal,.card").forEach(el=>io.observe(el));
-renderBrands();syncModeloOptions();applyFilters();
+(function(){try{var mp=Math.max.apply(null,vehicles.map(function(v){return v.price}));var mx=Math.ceil((mp+1)/10000)*10000;var sv=$("fValor");sv.max=mx;sv.value=mx;var mk=Math.max.apply(null,vehicles.map(function(v){return v.km}));var kx=Math.max(Math.ceil((mk+1)/5000)*5000,50000);var sk=$("fKm");sk.max=kx;sk.value=kx;}catch(e){}})();renderBrands();syncModeloOptions();applyFilters();
